@@ -3,15 +3,22 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [MetInfo]">
   <test thread-count="5" name="all(failed)">
     <classes>
-      <class name="com.hxy.testCase.ProductShow_Test">
+      <class name="com.hxy.testCase.SearchBox_Test">
         <methods>
-          <include name="ProductShow_set_background_color"/>
-          <include name="ProductShow_set_text_distance"/>
+          <include name="SearchBox_set_content_symbol"/>
+          <include name="SearchBox_set_range_2"/>
+          <include name="SearchBox_set_style_tc"/>
+          <include name="SearchBox_set_content_number"/>
+          <include name="SearchBox_set_content_text"/>
+          <include name="SearchBox_set_content_all"/>
+          <include name="SearchBox_set_style_all"/>
+          <include name="SearchBox_set_style_title"/>
+          <include name="SearchBox_set_style_content"/>
           <include name="doAfterMethod"/>
-          <include name="ProductShow_set_text_color"/>
           <include name="startBrowser"/>
+          <include name="SearchBox_set_range_1"/>
         </methods>
-      </class> <!-- com.hxy.testCase.ProductShow_Test -->
+      </class> <!-- com.hxy.testCase.SearchBox_Test -->
     </classes>
   </test> <!-- all(failed) -->
 </suite> <!-- Failed suite [MetInfo] -->
