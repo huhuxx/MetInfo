@@ -6,6 +6,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.hxy.Listener.JavaCreateHtmlListener;
+import com.hxy.Listener.JavaMailTestListener;
 
 @Listeners(JavaCreateHtmlListener.class)
 public class test {

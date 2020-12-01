@@ -71,7 +71,7 @@ public class ProductShow extends BaseTest{
 		Thread.sleep(1000);
 		save();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void set_text_color() throws InterruptedException {
 		//标题颜色设置
@@ -82,7 +82,7 @@ public class ProductShow extends BaseTest{
 		Thread.sleep(1000);
 		save();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void set_text_distance() throws InterruptedException {
 		//边距设置
@@ -94,6 +94,6 @@ public class ProductShow extends BaseTest{
 		Thread.sleep(1000);
 		save();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 }

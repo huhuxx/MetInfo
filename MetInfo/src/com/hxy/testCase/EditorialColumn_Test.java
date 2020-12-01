@@ -20,21 +20,22 @@ public class EditorialColumn_Test extends BaseTest {
 	public void EditorialColumn_set_newWindow_yes() throws InterruptedException {
 		u(driver).set_newWindow_yes();
 	}
-	@Test
-	public void EditorialColumn_set_setDisplay_all() throws InterruptedException {
-		u(driver).set_setDisplay_all();
-	}
+
 	@Test
 	public void EditorialColumn_set_setDisplay_head() throws InterruptedException {
 		u(driver).set_setDisplay_head();
+	}
+	@Test
+	public void EditorialColumn_set_setDisplay_tail() throws InterruptedException {
+		u(driver).set_setDisplay_tail();
 	}
 	@Test
 	public void EditorialColumn_set_setDisplay_no() throws InterruptedException {
 		u(driver).set_setDisplay_no();
 	}
 	@Test
-	public void EditorialColumn_set_setDisplay_tail() throws InterruptedException {
-		u(driver).set_setDisplay_tail();
+	public void EditorialColumn_set_setDisplay_all() throws InterruptedException {
+		u(driver).set_setDisplay_all();
 	}
 	@Test
 	public void EditorialColumn_set_updateTitle() throws InterruptedException {

@@ -105,7 +105,7 @@ public class ColumnManage {
 		Thread.sleep(1000);
 		driver.get("http://localhost:99/admin/?lang=cn&n=ui_set");
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	
 	public void setDisplay_no() throws InterruptedException {
@@ -115,7 +115,7 @@ public class ColumnManage {
 		Thread.sleep(2000);
 		save();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void setDisplay_head() throws InterruptedException {
 		//内容页面“产品展示”导航栏显示设置为头部导航栏显示
@@ -124,7 +124,7 @@ public class ColumnManage {
 		Thread.sleep(2000);
 		save();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void setDisplay_tail() throws InterruptedException {
 		//内容页面“产品展示”导航栏显示设置为尾部导航栏显示
@@ -133,7 +133,7 @@ public class ColumnManage {
 		Thread.sleep(2000);
 		save();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void setDisplay_all() throws InterruptedException {
 		//内容页面“产品展示”导航栏显示设置为全显示
@@ -142,7 +142,7 @@ public class ColumnManage {
 		Thread.sleep(2000);
 		save();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void addColumn() throws InterruptedException {
 		//"产品展示"添加子栏目
@@ -155,6 +155,6 @@ public class ColumnManage {
 		Thread.sleep(1000);
 		get_add_save().click();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 }

@@ -1,5 +1,8 @@
 package com.hxy.pageObjects;
 
+import static org.testng.Assert.assertEquals;
+
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,6 +18,9 @@ public class UpdateTitie{
 	
 	public WebElement get_title() {
 		return driver.findElement(By.xpath("//span[text()='产品展示']"));
+	}
+	public WebElement get_text(String text) {
+		return driver.findElement(By.xpath("//span[text()='"+text+"']"));
 	}
 	public WebElement get_edit() {
 		return driver.findElement(By.xpath("//i[@class='icon wb-pencil']"));
@@ -41,7 +47,9 @@ public class UpdateTitie{
 		Thread.sleep(1000);
 		get_input().sendKeys("产品展示");
 		get_save().click();
-		mainPage();
+		Thread.sleep(1000);
+		assertEquals(get_text("产品展示"), get_text("产品展示"));
+//		mainPage();
 	}
 	public void updateTitle_symbol() throws InterruptedException {
 		driver.switchTo().frame(0);
@@ -54,7 +62,9 @@ public class UpdateTitie{
 		Thread.sleep(1000);
 		get_input().sendKeys("++--");
 		get_save().click();
-		mainPage();
+		Thread.sleep(1000);
+		assertEquals(get_text("++--"), get_text("++--"));
+//		mainPage();
 	}
 	public void updateTitle_number() throws InterruptedException {
 		driver.switchTo().frame(0);
@@ -67,7 +77,9 @@ public class UpdateTitie{
 		Thread.sleep(1000);
 		get_input().sendKeys("2018011681");
 		get_save().click();
-		mainPage();
+		Thread.sleep(1000);
+		assertEquals(get_text("2018011681"), get_text("2018011681"));
+//		mainPage();
 	}
 	public void updateTitle_all() throws InterruptedException {
 		driver.switchTo().frame(0);
@@ -80,6 +92,8 @@ public class UpdateTitie{
 		Thread.sleep(1000);
 		get_input().sendKeys("1+产品展示");
 		get_save().click();
-		mainPage();
+		Thread.sleep(1000);
+		assertEquals(get_text("1+产品展示"), get_text("1+产品展示"));
+//		mainPage();
 	}
 }

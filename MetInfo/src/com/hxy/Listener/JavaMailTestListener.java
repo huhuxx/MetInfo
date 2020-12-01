@@ -36,7 +36,7 @@ public class JavaMailTestListener implements ITestListener{
 	public void onFinish(ITestContext testContext) {
 		try {
 			String mymail = ReadProperties.getPropertyValue("mymail");
-			//缁欒嚜宸卞彂
+			//
 			testFreemarker.createHtml();
 			Thread.sleep(1000);
 			MailUtilHtml.sendMail(mymail);

@@ -2,44 +2,84 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65232" started-at="2020-11-30T13:54:01 CST" finished-at="2020-11-30T13:55:06 CST">
+  <suite name="MetInfo" duration-ms="106518" started-at="2020-12-01T19:23:31 CST" finished-at="2020-12-01T19:25:18 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="65232" started-at="2020-11-30T13:54:01 CST" finished-at="2020-11-30T13:55:06 CST">
+    <test name="all" duration-ms="106518" started-at="2020-12-01T19:23:31 CST" finished-at="2020-12-01T19:25:18 CST">
       <class name="com.hxy.testCase.ColumnManage_Test">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="8054" started-at="2020-11-30T13:54:01 CST" finished-at="2020-11-30T13:54:09 CST">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="8084" started-at="2020-12-01T19:23:31 CST" finished-at="2020-12-01T19:23:39 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="ColumnManage_addColumn()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_addColumn" duration-ms="10308" started-at="2020-11-30T13:54:09 CST" finished-at="2020-11-30T13:54:19 CST">
+        <test-method status="PASS" signature="ColumnManage_addColumn()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_addColumn" duration-ms="8196" started-at="2020-12-01T19:23:39 CST" finished-at="2020-12-01T19:23:47 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ColumnManage_addColumn -->
-        <test-method status="PASS" signature="ColumnManage_setDisplay_all()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_setDisplay_all" duration-ms="8687" started-at="2020-11-30T13:54:19 CST" finished-at="2020-11-30T13:54:28 CST">
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="2580" started-at="2020-12-01T19:23:47 CST" finished-at="2020-12-01T19:23:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="7619" started-at="2020-12-01T19:23:50 CST" finished-at="2020-12-01T19:23:58 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="ColumnManage_setDisplay_all()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_setDisplay_all" duration-ms="6724" started-at="2020-12-01T19:23:58 CST" finished-at="2020-12-01T19:24:04 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ColumnManage_setDisplay_all -->
-        <test-method status="PASS" signature="ColumnManage_setDisplay_head()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_setDisplay_head" duration-ms="8541" started-at="2020-11-30T13:54:28 CST" finished-at="2020-11-30T13:54:36 CST">
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="2610" started-at="2020-12-01T19:24:04 CST" finished-at="2020-12-01T19:24:07 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="7734" started-at="2020-12-01T19:24:07 CST" finished-at="2020-12-01T19:24:15 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="ColumnManage_setDisplay_head()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_setDisplay_head" duration-ms="6952" started-at="2020-12-01T19:24:15 CST" finished-at="2020-12-01T19:24:22 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ColumnManage_setDisplay_head -->
-        <test-method status="PASS" signature="ColumnManage_setDisplay_no()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_setDisplay_no" duration-ms="8466" started-at="2020-11-30T13:54:36 CST" finished-at="2020-11-30T13:54:45 CST">
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="2589" started-at="2020-12-01T19:24:22 CST" finished-at="2020-12-01T19:24:24 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="7610" started-at="2020-12-01T19:24:24 CST" finished-at="2020-12-01T19:24:32 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="ColumnManage_setDisplay_no()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_setDisplay_no" duration-ms="6945" started-at="2020-12-01T19:24:32 CST" finished-at="2020-12-01T19:24:39 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ColumnManage_setDisplay_no -->
-        <test-method status="PASS" signature="ColumnManage_setDisplay_tail()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_setDisplay_tail" duration-ms="8567" started-at="2020-11-30T13:54:45 CST" finished-at="2020-11-30T13:54:53 CST">
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="2575" started-at="2020-12-01T19:24:39 CST" finished-at="2020-12-01T19:24:41 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="7619" started-at="2020-12-01T19:24:41 CST" finished-at="2020-12-01T19:24:49 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="ColumnManage_setDisplay_tail()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_setDisplay_tail" duration-ms="6932" started-at="2020-12-01T19:24:49 CST" finished-at="2020-12-01T19:24:56 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ColumnManage_setDisplay_tail -->
-        <test-method status="PASS" signature="ColumnManage_updateTitle()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_updateTitle" duration-ms="9942" started-at="2020-11-30T13:54:53 CST" finished-at="2020-11-30T13:55:03 CST">
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="2588" started-at="2020-12-01T19:24:56 CST" finished-at="2020-12-01T19:24:59 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="7625" started-at="2020-12-01T19:24:59 CST" finished-at="2020-12-01T19:25:06 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="ColumnManage_updateTitle()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_updateTitle" duration-ms="8901" started-at="2020-12-01T19:25:06 CST" finished-at="2020-12-01T19:25:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ColumnManage_updateTitle -->
-        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="2620" started-at="2020-11-30T13:55:03 CST" finished-at="2020-11-30T13:55:06 CST">
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="2608" started-at="2020-12-01T19:25:15 CST" finished-at="2020-12-01T19:25:18 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAfterMethod -->
       </class> <!-- com.hxy.testCase.ColumnManage_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- all -->
+  </suite> <!-- MetInfo -->
 </testng-results>

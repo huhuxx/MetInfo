@@ -105,7 +105,7 @@ public class EditorialColumn extends BaseTest {
 		get_set_productshow().sendKeys("产品展示");
 		Thread.sleep(1000);
 		save();
-		mainPage();
+//		mainPage();
 	}
 	public void set_text_size() throws InterruptedException {
 		//调整字体大小
@@ -115,7 +115,7 @@ public class EditorialColumn extends BaseTest {
 		get_set_textsize().clear();
 		Thread.sleep(2000);	
 		save();
-		mainPage();
+//		mainPage();
 	}
 	public void set_text_color() throws InterruptedException {
 		//调整字体颜色
@@ -127,7 +127,7 @@ public class EditorialColumn extends BaseTest {
 		get_set_textcolor().clear();
 		Thread.sleep(1000);	
 		save();
-		mainPage();
+//		mainPage();
 	}
 	public void set_setDisplay_no() throws InterruptedException {
 		//设置页面设置导航栏显示为不显示
@@ -135,7 +135,7 @@ public class EditorialColumn extends BaseTest {
 		get_set_no().click();
 		Thread.sleep(1000);
 		save();
-		mainPage();
+//		mainPage();
 	}
 	public void set_setDisplay_head() throws InterruptedException {
 		//设置页面设置导航栏显示为头部导航栏显示
@@ -143,7 +143,7 @@ public class EditorialColumn extends BaseTest {
 		get_set_head().click();
 		Thread.sleep(1000);
 		save();
-		mainPage();
+//		mainPage();
 	}
 	public void set_setDisplay_tail() throws InterruptedException {
 		//设置页面设置导航栏显示为尾部导航栏显示
@@ -151,7 +151,7 @@ public class EditorialColumn extends BaseTest {
 		get_set_tail().click();
 		Thread.sleep(1000);
 		save();
-		mainPage();
+//		mainPage();
 	}
 	public void set_setDisplay_all() throws InterruptedException {
 		//设置页面设置导航栏显示为全部显示
@@ -159,7 +159,7 @@ public class EditorialColumn extends BaseTest {
 		get_set_all().click();
 		Thread.sleep(1000);
 		save();
-		mainPage();
+//		mainPage();
 	}
 	public void set_newWindow_yes() throws InterruptedException {
 		//设置页面设置新窗口打开为是
@@ -167,7 +167,7 @@ public class EditorialColumn extends BaseTest {
 		get_set_window_yes().click();
 		Thread.sleep(1000);
 		save();
-		mainPage();
+//		mainPage();
 	}
 	public void set_newWindow_no() throws InterruptedException {
 		//设置页面设置新窗口打开为否
@@ -175,7 +175,7 @@ public class EditorialColumn extends BaseTest {
 		get_set_window_no().click();
 		Thread.sleep(1000);
 		save();
-		mainPage();
+//		mainPage();
 	}
 	public void set_sortStyle_updateTime() throws InterruptedException {
 		//设置页面设置列表页排序方式为更新时间
@@ -183,7 +183,7 @@ public class EditorialColumn extends BaseTest {
 		get_set_sortStyle_updateTime().click();
 		Thread.sleep(1000);
 		save();
-		mainPage();
+//		mainPage();
 	}
 	public void set_sortStyle_releaseTime() throws InterruptedException {
 		//设置页面设置列表页排序方式为发布时间
@@ -191,7 +191,7 @@ public class EditorialColumn extends BaseTest {
 		get_set_sortStyle_releaseTime().click();
 		Thread.sleep(1000);
 		save();
-		mainPage();
+//		mainPage();
 	}
 	public void set_sortStyle_clickNumber() throws InterruptedException {
 		//设置页面设置列表页排序方式为点击次数
@@ -199,7 +199,7 @@ public class EditorialColumn extends BaseTest {
 		get_set_sortStyle_clickNumber().click();
 		Thread.sleep(1000);
 		save();
-		mainPage();
+//		mainPage();
 	}
 	public void set_sortStyle_daoxu() throws InterruptedException {
 		//设置页面设置列表页排序方式为更新时间
@@ -207,7 +207,7 @@ public class EditorialColumn extends BaseTest {
 		get_set_sortStyle_idDaoxu();
 		Thread.sleep(1000);
 		save();
-		mainPage();
+//		mainPage();
 	}
 	public void set_sortStyle_zhengxu() throws InterruptedException {
 		//设置页面设置列表页排序方式为更新时间
@@ -215,6 +215,6 @@ public class EditorialColumn extends BaseTest {
 		get_set_sortStyle_idZheng();
 		Thread.sleep(1000);
 		save();
-		mainPage();
+//		mainPage();
 	}
 }

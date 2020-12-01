@@ -49,6 +49,10 @@ public class SearchBox extends BaseTest {
 		//修改默认输入框
 		return driver.findElement(By.xpath("//input[@value='请输入你感兴趣的关键词；']"));
 	}
+	public WebElement get_input_text2() {
+		return driver.findElement(By.xpath("//input[@name='search_placeholder']"));
+		
+	}
 	public WebElement get_save() {
 		//保存按钮
 		return driver.findElement(By.xpath("//button[@class='btn btn-primary']"));
@@ -76,35 +80,35 @@ public class SearchBox extends BaseTest {
 		intoProductShow();
 		get_range_1().click();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void set_range_2() throws InterruptedException {
 		//设置搜索范围为当前所属一级栏目
 		intoProductShow();
 		get_range_2().click();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void set_style_all() throws InterruptedException {
 		//设置搜索方式为全部
 		intoProductShow();
 		get_style_all().click();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void set_style_title() throws InterruptedException {
 		//设置搜索方式为标题
 		intoProductShow();
 		get_style_title().click();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void set_style_content() throws InterruptedException {
 		//设置搜索方式为内容
 		intoProductShow();
 		get_style_content().click();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void set_style_tc() throws InterruptedException {
 		//设置搜索方式为标题和内容
@@ -113,50 +117,51 @@ public class SearchBox extends BaseTest {
 		Thread.sleep(1000);
 		save();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void set_content_text() throws InterruptedException {
 		//设置搜索框默认内容为文字
 		intoProductShow();
 		get_input_text().clear();
 		Thread.sleep(1000);
-		get_input_text().sendKeys("请输入");
+		get_input_text2().sendKeys("请输入");
 		Thread.sleep(1000);
 		save();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void set_content_number() throws InterruptedException {
 		//设置搜索框默认内容为数字
 		intoProductShow();
 		get_input_text().clear();
 		Thread.sleep(1000);
-		get_input_text().sendKeys("123");
+		get_input_text2().sendKeys("123");
 		Thread.sleep(1000);
 		save();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void set_content_symbol() throws InterruptedException {
 		//设置搜索框默认内容为符号
 		intoProductShow();
 		get_input_text().clear();
 		Thread.sleep(1000);
-		get_input_text().sendKeys("；；；；；；；");
+		get_input_text2().sendKeys("；；；；；；；");
 		Thread.sleep(1000);
 		save();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void set_content_all() throws InterruptedException {
 		//设置搜索框默认内容为复杂字符串
 		intoProductShow();
 		get_input_text().clear();
 		Thread.sleep(1000);
-		get_input_text().sendKeys("请输入1个关键词；");
+		get_input_text2().sendKeys("请输入1个关键词；");
 		Thread.sleep(1000);
 		save();
+		
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 }

@@ -13,6 +13,10 @@ public class UpdateTitle_Test extends BaseTest{
 	}
 	//4¸ö
 	@Test
+	public void UpdateTitle_updateTitle_text() throws InterruptedException {
+		u(driver).updateTitle_text();
+	}
+	@Test
 	public void UpdateTitle_updateTitle_all() throws InterruptedException {
 		u(driver).updateTitle_all();
 	}
@@ -23,9 +27,5 @@ public class UpdateTitle_Test extends BaseTest{
 	@Test
 	public void UpdateTitle_updateTitle_number() throws InterruptedException {
 		u(driver).updateTitle_number();
-	}
-	@Test
-	public void UpdateTitle_updateTitle_text() throws InterruptedException {
-		u(driver).updateTitle_text();
 	}
 }

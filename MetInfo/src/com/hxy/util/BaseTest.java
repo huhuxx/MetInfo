@@ -6,18 +6,20 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
 import com.hxy.readproperties.ReadProperties;
 
 public class BaseTest {
 	public WebDriver driver;
-	@BeforeClass
+	@BeforeMethod
 	public void startBrowser() throws InterruptedException, IOException {
-		String firefox_driver = ReadProperties.getPropertyValue("gecko_driver");
-		String firefox_path = ReadProperties.getPropertyValue("firefox_path");
+//		String firefox_driver = ReadProperties.getPropertyValue("gecko_driver");
+//		String firefox_path = ReadProperties.getPropertyValue("firefox_path");
 //		System.setProperty("webdriver.gecko.driver", "D:\\Firefoxgeckodriver\\geckodriver\\geckodriver.exe");
 //		System.setProperty("webdriver.firefox.bin", "D:\\Firefox\\firefox.exe");
 		System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
@@ -31,7 +33,7 @@ public class BaseTest {
 		Thread.sleep(4000);
 	}
 
-	@AfterClass
+	@AfterMethod
 	public void doAfterMethod() throws InterruptedException {
 		if (this.driver != null) {
 			this.driver.quit();

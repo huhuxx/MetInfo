@@ -108,57 +108,57 @@ public class ContentManage extends BaseTest {
 		Thread.sleep(1000);
 		save();
 		Thread.sleep(1000);
-		mainPage();
+//		mainPage();
 	}
 	public void editColumn_productshow() throws InterruptedException {
 		//选择产品展示
 		editContent_column("产品展示");
-		mainPage();
+//		mainPage();
 	}
 	public void editColumn_cAndp() throws InterruptedException {
 		//选择电脑&平板
-		editContent_column("电脑&平板");
-		mainPage();
+		editContent_column("—— 电脑&平板");
+//		mainPage();
 	}
 	public void editColumn_notePC() throws InterruptedException {
 		//选择笔记本电脑
-		editContent_column("笔记本电脑");
-		mainPage();
+		editContent_column("———— 笔记本电脑");
+//		mainPage();
 	}
 	public void editColumn_tabletPC() throws InterruptedException {
 		//选择平板电脑
-		editContent_column("平板电脑");
-		mainPage();
+		editContent_column("———— 平板电脑");
+//		mainPage();
 	}
 	public void editColumn_computerOne() throws InterruptedException {
 		//选择一体机电脑
-		editContent_column("一体机电脑");
-		mainPage();
+		editContent_column("———— 一体机电脑");
+//		mainPage();
 	}
 	public void editColumn_computer() throws InterruptedException {
 		//选择台式机电脑
-		editContent_column("台式机电脑");
-		mainPage();
+		editContent_column("———— 台式机电脑");
+//		mainPage();
 	}
 	public void editColumn_phone() throws InterruptedException {
 		//选择手机
-		editContent_column("手机");
-		mainPage();
+		editContent_column("—— 手机");
+//		mainPage();
 	}
 	public void editColumn_phone_first() throws InterruptedException {
 		//选择智能手机
-		editContent_column("智能手机");
-		mainPage();
+		editContent_column("———— 智能手机");
+//		mainPage();
 	}
 	public void editColumn_phone_second() throws InterruptedException {
 		//选择畅玩系列
-		editContent_column("畅玩系列");
-		mainPage();
+		editContent_column("———— 畅玩系列");
+//		mainPage();
 	}
 	public void editColumn_phone_third() throws InterruptedException {
 		//选择畅想系列
-		editContent_column("畅想系列");
-		mainPage();
+		editContent_column("———— 畅想系列");
+//		mainPage();
 	}
 	public void editContent_text_size() throws InterruptedException {
 		//编辑内容，设置字体大小
@@ -169,7 +169,7 @@ public class ContentManage extends BaseTest {
 		Thread.sleep(1000);
 	    save();
 	    Thread.sleep(1000);
-	    mainPage();
+//	    mainPage();
 	}
 	public void editContent_text_color() throws InterruptedException {
 		//编辑内容，设置字体颜色
@@ -182,7 +182,7 @@ public class ContentManage extends BaseTest {
 		Thread.sleep(1000);
 	    save();
 	    Thread.sleep(1000);
-	    mainPage();
+//	    mainPage();
 	}
 	public void editContent_model() throws InterruptedException {
 		//修改型号
@@ -198,14 +198,14 @@ public class ContentManage extends BaseTest {
 		        get_edit_model().clear();
 		        Thread.sleep(1000);
 		        get_edit_model().sendKeys("AKG&HUAWEI");
-		        Thread.sleep(10000);
+		        Thread.sleep(1000);
 		        break;
 		    } catch (Exception e) {
 		    }
 		}
 	    save();
 	    Thread.sleep(1000);
-	    mainPage();
+//	    mainPage();
 	}
 	public void editContent_JingDong() throws InterruptedException {
 		//修改型号
@@ -221,14 +221,14 @@ public class ContentManage extends BaseTest {
 		        get_edit_JingDong().clear();
 		        Thread.sleep(1000);
 		        get_edit_JingDong().sendKeys("https://www.jd.com/");
-		        Thread.sleep(10000);
+		        Thread.sleep(1000);
 		        break;
 		    } catch (Exception e) {
 		    }
 		}
 	    save();
 	    Thread.sleep(1000);
-	    mainPage();
+//	    mainPage();
 	}
 	public void editContent_Taobao() throws InterruptedException {
 		//修改型号
@@ -244,14 +244,14 @@ public class ContentManage extends BaseTest {
 		        get_edit_TaoBao().clear();
 		        Thread.sleep(10000);
 		        get_edit_TaoBao().sendKeys("https://www.taobao.com/");
-		        Thread.sleep(10000);
+		        Thread.sleep(1000);
 		        break;
 		    } catch (Exception e) {
 		    }
 		}
 		save();
 	    Thread.sleep(1000);
-	    mainPage();
+//	    mainPage();
 	}
 	
 }
