@@ -29,10 +29,10 @@ public class EditorialColumn_Test extends BaseTest {
 	public void EditorialColumn_set_setDisplay_tail() throws InterruptedException {
 		u(driver).set_setDisplay_tail();
 	}
-	@Test
-	public void EditorialColumn_set_setDisplay_no() throws InterruptedException {
-		u(driver).set_setDisplay_no();
-	}
+//	@Test
+//	public void EditorialColumn_set_setDisplay_no() throws InterruptedException {
+//		u(driver).set_setDisplay_no();
+//	}
 	@Test
 	public void EditorialColumn_set_setDisplay_all() throws InterruptedException {
 		u(driver).set_setDisplay_all();
