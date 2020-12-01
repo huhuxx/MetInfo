@@ -1,81 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="2" failed="1" ignored="0" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="MetInfo" duration-ms="106518" started-at="2020-12-01T19:23:31 CST" finished-at="2020-12-01T19:25:18 CST">
+  <suite name="MetInfo" duration-ms="36749" started-at="2020-12-01T20:14:43 CST" finished-at="2020-12-01T20:15:19 CST">
     <groups>
     </groups>
-    <test name="all" duration-ms="106518" started-at="2020-12-01T19:23:31 CST" finished-at="2020-12-01T19:25:18 CST">
+    <test name="all" duration-ms="36749" started-at="2020-12-01T20:14:43 CST" finished-at="2020-12-01T20:15:19 CST">
       <class name="com.hxy.testCase.ColumnManage_Test">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="8084" started-at="2020-12-01T19:23:31 CST" finished-at="2020-12-01T19:23:39 CST">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="8101" started-at="2020-12-01T20:14:43 CST" finished-at="2020-12-01T20:14:51 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="ColumnManage_addColumn()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_addColumn" duration-ms="8196" started-at="2020-12-01T19:23:39 CST" finished-at="2020-12-01T19:23:47 CST">
+        <test-method status="PASS" signature="ColumnManage_addColumn()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_addColumn" duration-ms="8171" started-at="2020-12-01T20:14:51 CST" finished-at="2020-12-01T20:14:59 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ColumnManage_addColumn -->
-        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="2580" started-at="2020-12-01T19:23:47 CST" finished-at="2020-12-01T19:23:50 CST">
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="2586" started-at="2020-12-01T20:14:59 CST" finished-at="2020-12-01T20:15:02 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAfterMethod -->
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="7619" started-at="2020-12-01T19:23:50 CST" finished-at="2020-12-01T19:23:58 CST">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="7644" started-at="2020-12-01T20:15:02 CST" finished-at="2020-12-01T20:15:09 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="ColumnManage_setDisplay_all()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_setDisplay_all" duration-ms="6724" started-at="2020-12-01T19:23:58 CST" finished-at="2020-12-01T19:24:04 CST">
+        <test-method status="FAIL" signature="ColumnManage_setDisplay_all()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_setDisplay_all" duration-ms="3930" started-at="2020-12-01T20:15:09 CST" finished-at="2020-12-01T20:15:13 CST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //select[@name='nav-4']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R6U7DT6', ip: '192.168.43.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 18800, moz:profile: C:\Users\HuXueyang\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 81240b01-7775-4725-8684-5dd49d54ba64
+*** Element info: {Using=xpath, value=//select[@name='nav-4']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //select[@name='nav-4']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R6U7DT6', ip: '192.168.43.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 18800, moz:profile: C:\Users\HuXueyang\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 81240b01-7775-4725-8684-5dd49d54ba64
+*** Element info: {Using=xpath, value=//select[@name='nav-4']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.hxy.pageObjects.ColumnManage.get_setdisplay(ColumnManage.java:33)
+at com.hxy.pageObjects.ColumnManage.setDisplay_all(ColumnManage.java:141)
+at com.hxy.testCase.ColumnManage_Test.ColumnManage_setDisplay_all(ColumnManage_Test.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ColumnManage_setDisplay_all -->
-        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="2610" started-at="2020-12-01T19:24:04 CST" finished-at="2020-12-01T19:24:07 CST">
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="2579" started-at="2020-12-01T20:15:13 CST" finished-at="2020-12-01T20:15:16 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAfterMethod -->
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="7734" started-at="2020-12-01T19:24:07 CST" finished-at="2020-12-01T19:24:15 CST">
+        <test-method status="FAIL" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="3698" started-at="2020-12-01T20:15:16 CST" finished-at="2020-12-01T20:15:19 CST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R6U7DT6', ip: '192.168.43.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 11132, moz:profile: C:\Users\HuXueyang\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a1850332-41ea-4a51-8555-fd1d7679af0d
+*** Element info: {Using=name, value=login_name}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R6U7DT6', ip: '192.168.43.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 11132, moz:profile: C:\Users\HuXueyang\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a1850332-41ea-4a51-8555-fd1d7679af0d
+*** Element info: {Using=name, value=login_name}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.hxy.util.BaseTest.startBrowser(BaseTest.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="ColumnManage_setDisplay_head()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_setDisplay_head" duration-ms="6952" started-at="2020-12-01T19:24:15 CST" finished-at="2020-12-01T19:24:22 CST">
+        <test-method status="SKIP" signature="ColumnManage_setDisplay_head()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_setDisplay_head" duration-ms="0" started-at="2020-12-01T20:15:19 CST" finished-at="2020-12-01T20:15:19 CST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R6U7DT6', ip: '192.168.43.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 11132, moz:profile: C:\Users\HuXueyang\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a1850332-41ea-4a51-8555-fd1d7679af0d
+*** Element info: {Using=name, value=login_name}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R6U7DT6', ip: '192.168.43.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 11132, moz:profile: C:\Users\HuXueyang\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a1850332-41ea-4a51-8555-fd1d7679af0d
+*** Element info: {Using=name, value=login_name}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.hxy.util.BaseTest.startBrowser(BaseTest.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ColumnManage_setDisplay_head -->
-        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="2589" started-at="2020-12-01T19:24:22 CST" finished-at="2020-12-01T19:24:24 CST">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="-1606824919895" started-at="2020-12-01T20:15:19 CST" finished-at="1970-01-01T08:00:00 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAfterMethod -->
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="7610" started-at="2020-12-01T19:24:24 CST" finished-at="2020-12-01T19:24:32 CST">
+        <test-method status="SKIP" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="-1606824919896" started-at="2020-12-01T20:15:19 CST" finished-at="1970-01-01T08:00:00 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="ColumnManage_setDisplay_no()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_setDisplay_no" duration-ms="6945" started-at="2020-12-01T19:24:32 CST" finished-at="2020-12-01T19:24:39 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ColumnManage_setDisplay_no -->
-        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="2575" started-at="2020-12-01T19:24:39 CST" finished-at="2020-12-01T19:24:41 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doAfterMethod -->
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="7619" started-at="2020-12-01T19:24:41 CST" finished-at="2020-12-01T19:24:49 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="ColumnManage_setDisplay_tail()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_setDisplay_tail" duration-ms="6932" started-at="2020-12-01T19:24:49 CST" finished-at="2020-12-01T19:24:56 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ColumnManage_setDisplay_tail -->
-        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="2588" started-at="2020-12-01T19:24:56 CST" finished-at="2020-12-01T19:24:59 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doAfterMethod -->
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="startBrowser" is-config="true" duration-ms="7625" started-at="2020-12-01T19:24:59 CST" finished-at="2020-12-01T19:25:06 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="ColumnManage_updateTitle()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_updateTitle" duration-ms="8901" started-at="2020-12-01T19:25:06 CST" finished-at="2020-12-01T19:25:15 CST">
+        <test-method status="SKIP" signature="ColumnManage_updateTitle()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="ColumnManage_updateTitle" duration-ms="0" started-at="2020-12-01T20:15:19 CST" finished-at="2020-12-01T20:15:19 CST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R6U7DT6', ip: '192.168.43.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 11132, moz:profile: C:\Users\HuXueyang\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a1850332-41ea-4a51-8555-fd1d7679af0d
+*** Element info: {Using=name, value=login_name}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R6U7DT6', ip: '192.168.43.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 11132, moz:profile: C:\Users\HuXueyang\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a1850332-41ea-4a51-8555-fd1d7679af0d
+*** Element info: {Using=name, value=login_name}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.hxy.util.BaseTest.startBrowser(BaseTest.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ColumnManage_updateTitle -->
-        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="2608" started-at="2020-12-01T19:25:15 CST" finished-at="2020-12-01T19:25:18 CST">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ColumnManage_Test@7494e528]" name="doAfterMethod" is-config="true" duration-ms="-1606824919897" started-at="2020-12-01T20:15:19 CST" finished-at="1970-01-01T08:00:00 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAfterMethod -->

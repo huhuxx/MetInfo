@@ -5,72 +5,13 @@
     <classes>
       <class name="com.hxy.testCase.ColumnManage_Test">
         <methods>
+          <include name="ColumnManage_setDisplay_head"/>
           <include name="ColumnManage_updateTitle"/>
           <include name="doAfterMethod"/>
           <include name="startBrowser"/>
+          <include name="ColumnManage_setDisplay_all"/>
         </methods>
       </class> <!-- com.hxy.testCase.ColumnManage_Test -->
-      <class name="com.hxy.testCase.EditorialColumn_Test">
-        <methods>
-          <include name="EditorialColumn_set_sortStyle_clickNumber"/>
-          <include name="doAfterMethod"/>
-          <include name="startBrowser"/>
-        </methods>
-      </class> <!-- com.hxy.testCase.EditorialColumn_Test -->
-      <class name="com.hxy.testCase.SearchBox_Test">
-        <methods>
-          <include name="SearchBox_set_content_symbol"/>
-          <include name="SearchBox_set_range_2"/>
-          <include name="SearchBox_set_style_tc"/>
-          <include name="SearchBox_set_content_number"/>
-          <include name="SearchBox_set_content_text"/>
-          <include name="SearchBox_set_content_all"/>
-          <include name="SearchBox_set_style_all"/>
-          <include name="SearchBox_set_style_title"/>
-          <include name="SearchBox_set_style_content"/>
-          <include name="doAfterMethod"/>
-          <include name="startBrowser"/>
-          <include name="SearchBox_set_range_1"/>
-        </methods>
-      </class> <!-- com.hxy.testCase.SearchBox_Test -->
-      <class name="com.hxy.testCase.ProductShow_Test">
-        <methods>
-          <include name="ProductShow_set_background_color"/>
-          <include name="ProductShow_set_text_distance"/>
-          <include name="doAfterMethod"/>
-          <include name="ProductShow_set_text_color"/>
-          <include name="startBrowser"/>
-        </methods>
-      </class> <!-- com.hxy.testCase.ProductShow_Test -->
-      <class name="com.hxy.testCase.ContentManage_Test">
-        <methods>
-          <include name="ContentManage_editContent_Taobao"/>
-          <include name="ContentManage_editColumn_phone"/>
-          <include name="ContentManage_editColumn_notePC"/>
-          <include name="ContentManage_editColumn_phone_first"/>
-          <include name="ContentManage_editColumn_computerOne"/>
-          <include name="ContentManage_editColumn_tabletPC"/>
-          <include name="ContentManage_addContent"/>
-          <include name="ContentManage_editColumn_cAndp"/>
-          <include name="ContentManage_editContent_JingDong"/>
-          <include name="ContentManage_editContent_model"/>
-          <include name="ContentManage_editContent_text_size"/>
-          <include name="ContentManage_editColumn_phone_third"/>
-          <include name="ContentManage_editColumn_productshow"/>
-          <include name="doAfterMethod"/>
-          <include name="ContentManage_editColumn_computer"/>
-          <include name="ContentManage_editContent_text_color"/>
-          <include name="startBrowser"/>
-          <include name="ContentManage_editColumn_phone_second"/>
-        </methods>
-      </class> <!-- com.hxy.testCase.ContentManage_Test -->
-      <class name="com.hxy.testCase.UpdateTitle_Test">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="startBrowser"/>
-          <include name="UpdateTitle_updateTitle_symbol"/>
-        </methods>
-      </class> <!-- com.hxy.testCase.UpdateTitle_Test -->
     </classes>
   </test> <!-- all(failed) -->
 </suite> <!-- Failed suite [MetInfo] -->

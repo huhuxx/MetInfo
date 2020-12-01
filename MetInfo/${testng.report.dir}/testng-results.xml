@@ -1,248 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="MetInfo" duration-ms="81" started-at="2020-12-01T19:50:17 CST" finished-at="2020-12-01T19:50:17 CST">
+  <suite name="MetInfo" duration-ms="56102" started-at="2020-12-01T20:09:38 CST" finished-at="2020-12-01T20:10:34 CST">
     <groups>
     </groups>
-    <test name="all" duration-ms="81" started-at="2020-12-01T19:50:17 CST" finished-at="2020-12-01T19:50:17 CST">
+    <test name="all" duration-ms="56102" started-at="2020-12-01T20:09:38 CST" finished-at="2020-12-01T20:10:34 CST">
       <class name="com.hxy.testCase.ProductShow_Test">
-        <test-method status="FAIL" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="startBrowser" is-config="true" duration-ms="60" started-at="2020-12-01T19:50:17 CST" finished-at="2020-12-01T19:50:17 CST">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: C:\geckodriver\geckodriver.exe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\geckodriver\geckodriver.exe
-at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
-at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
-at com.hxy.util.BaseTest.startBrowser(Unknown Source)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.TestNG.privateMain(TestNG.java:1371)
-at org.testng.TestNG.main(TestNG.java:1335)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="startBrowser" is-config="true" duration-ms="8090" started-at="2020-12-01T20:09:38 CST" finished-at="2020-12-01T20:09:46 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="doAfterMethod" is-config="true" duration-ms="-1606823417837" started-at="2020-12-01T19:50:17 CST" finished-at="1970-01-01T08:00:00 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doAfterMethod -->
-        <test-method status="SKIP" signature="ProductShow_set_background_color()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="ProductShow_set_background_color" duration-ms="0" started-at="2020-12-01T19:50:17 CST" finished-at="2020-12-01T19:50:17 CST">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: C:\geckodriver\geckodriver.exe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\geckodriver\geckodriver.exe
-at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
-at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
-at com.hxy.util.BaseTest.startBrowser(Unknown Source)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.TestNG.privateMain(TestNG.java:1371)
-at org.testng.TestNG.main(TestNG.java:1335)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method status="PASS" signature="ProductShow_set_background_color()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="ProductShow_set_background_color" duration-ms="8139" started-at="2020-12-01T20:09:46 CST" finished-at="2020-12-01T20:09:54 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductShow_set_background_color -->
-        <test-method status="SKIP" signature="ProductShow_set_text_distance()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="ProductShow_set_text_distance" duration-ms="0" started-at="2020-12-01T19:50:17 CST" finished-at="2020-12-01T19:50:17 CST">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: C:\geckodriver\geckodriver.exe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\geckodriver\geckodriver.exe
-at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
-at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
-at com.hxy.util.BaseTest.startBrowser(Unknown Source)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.TestNG.privateMain(TestNG.java:1371)
-at org.testng.TestNG.main(TestNG.java:1335)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductShow_set_text_distance -->
-        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="doAfterMethod" is-config="true" duration-ms="-1606823417838" started-at="2020-12-01T19:50:17 CST" finished-at="1970-01-01T08:00:00 CST">
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="doAfterMethod" is-config="true" duration-ms="2589" started-at="2020-12-01T20:09:54 CST" finished-at="2020-12-01T20:09:57 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAfterMethod -->
-        <test-method status="SKIP" signature="ProductShow_set_text_color()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="ProductShow_set_text_color" duration-ms="0" started-at="2020-12-01T19:50:17 CST" finished-at="2020-12-01T19:50:17 CST">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: C:\geckodriver\geckodriver.exe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\geckodriver\geckodriver.exe
-at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
-at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
-at com.hxy.util.BaseTest.startBrowser(Unknown Source)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.TestNG.privateMain(TestNG.java:1371)
-at org.testng.TestNG.main(TestNG.java:1335)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="startBrowser" is-config="true" duration-ms="7644" started-at="2020-12-01T20:09:57 CST" finished-at="2020-12-01T20:10:04 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="ProductShow_set_text_color()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="ProductShow_set_text_color" duration-ms="8429" started-at="2020-12-01T20:10:04 CST" finished-at="2020-12-01T20:10:13 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductShow_set_text_color -->
-        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="doAfterMethod" is-config="true" duration-ms="-1606823417838" started-at="2020-12-01T19:50:17 CST" finished-at="1970-01-01T08:00:00 CST">
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="doAfterMethod" is-config="true" duration-ms="2593" started-at="2020-12-01T20:10:13 CST" finished-at="2020-12-01T20:10:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAfterMethod -->
-        <test-method status="SKIP" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="startBrowser" is-config="true" duration-ms="-1606823417838" started-at="2020-12-01T19:50:17 CST" finished-at="1970-01-01T08:00:00 CST">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="startBrowser" is-config="true" duration-ms="7633" started-at="2020-12-01T20:10:15 CST" finished-at="2020-12-01T20:10:23 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="SKIP" signature="startBrowser()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="startBrowser" is-config="true" duration-ms="-1606823417838" started-at="2020-12-01T19:50:17 CST" finished-at="1970-01-01T08:00:00 CST">
+        <test-method status="PASS" signature="ProductShow_set_text_distance()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="ProductShow_set_text_distance" duration-ms="8382" started-at="2020-12-01T20:10:23 CST" finished-at="2020-12-01T20:10:31 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startBrowser -->
+        </test-method> <!-- ProductShow_set_text_distance -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.hxy.testCase.ProductShow_Test@174d20a]" name="doAfterMethod" is-config="true" duration-ms="2583" started-at="2020-12-01T20:10:31 CST" finished-at="2020-12-01T20:10:34 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
       </class> <!-- com.hxy.testCase.ProductShow_Test -->
     </test> <!-- all -->
   </suite> <!-- MetInfo -->
