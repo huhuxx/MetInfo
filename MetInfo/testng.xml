@@ -2,7 +2,7 @@
 <suite name="MetInfo">
 	<test name="all">
 	    <classes>
-	    	 <class name="com.hxy.testCase.ColumnManage_Test"/>
+	    	 <class name="com.hxy.testCase.ContentManage_Test"/>
 	    </classes>
 	</test>
 </suite>
