@@ -86,8 +86,8 @@ public class ColumnManage {
 	public void intoContent() throws InterruptedException {
 		//进入内容
 		driver.switchTo().frame(0);
-		Actions action = new Actions(driver);	
-		action.moveToElement(get_row()).perform();
+//		Actions action = new Actions(driver);	
+//		action.moveToElement(get_row()).perform();
 		Thread.sleep(1000);
 		get_content().click();
 		driver.switchTo().defaultContent();
@@ -102,8 +102,6 @@ public class ColumnManage {
 		get_productshow().sendKeys("产品展示");
 		Thread.sleep(1000);
 		save();
-		Thread.sleep(1000);
-		driver.get("http://localhost:99/admin/?lang=cn&n=ui_set");
 		Thread.sleep(1000);
 //		mainPage();
 	}

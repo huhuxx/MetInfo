@@ -18,7 +18,7 @@ public class ProductShow extends BaseTest{
 	}
 	public WebElement get_title() {
 		//产品展示导航栏
-		return driver.findElement(By.xpath("//span[text()='产品展示']"));
+		return driver.findElement(By.xpath("//span[@met-id='4']"));	
 	}
 	public WebElement get_set() {
 		//大标题设置

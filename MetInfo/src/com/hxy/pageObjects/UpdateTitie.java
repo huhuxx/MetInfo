@@ -16,6 +16,9 @@ public class UpdateTitie{
 	}
 	
 	public WebElement get_title() {
+		return driver.findElement(By.xpath("//span[@met-id='4']"));	
+	}
+	public WebElement get_title2() {
 		return driver.findElement(By.xpath("//span[text()='产品展示']"));
 	}
 	public WebElement get_text(String text) {
@@ -94,5 +97,19 @@ public class UpdateTitie{
 		Thread.sleep(1000);
 		assertEquals(get_text("1+产品展示"), get_text("1+产品展示"));
 //		mainPage();
+	}
+	public void updateTitle_data(String text) throws InterruptedException {
+		driver.switchTo().frame(0);
+		Actions action = new Actions(driver);	
+		action.moveToElement(get_title()).perform();
+		Thread.sleep(1000);
+		get_edit().click();
+		Thread.sleep(1000);
+		get_input().clear();
+		Thread.sleep(1000);
+		get_input().sendKeys(text);
+		get_save().click();
+		Thread.sleep(1000);
+//		assertEquals(get_text("1+产品展示"), get_text("1+产品展示"));
 	}
 }

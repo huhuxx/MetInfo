@@ -17,7 +17,7 @@ public class ContentManage extends BaseTest {
 	}
 	public WebElement get_title() {
 		//产品展示导航栏
-		return driver.findElement(By.xpath("//span[text()='产品展示']"));
+		return driver.findElement(By.xpath("//span[@met-id='4']"));	
 	}
 	public WebElement get_content() {
 		//内容
@@ -37,7 +37,8 @@ public class ContentManage extends BaseTest {
 	}
 	public Select get_select() {
 		//多选框
-		WebElement selectSingle = driver.findElement(By.xpath("//select[@data-checked='4-5-0']"));
+		WebElement selectSingle = driver.findElement(By.xpath("//select[@required='']"));	
+//		WebElement selectSingle = driver.findElement(By.xpath("//select[@data-checked='4-5-0']"));
 		Select f1=new Select(selectSingle);
 		return f1;
 	}
@@ -164,6 +165,8 @@ public class ContentManage extends BaseTest {
 		//编辑内容，设置字体大小
 		intoProductShow();
 		get_edit().click();
+		Thread.sleep(1000);
+		get_edit_textsize().clear();
 		Thread.sleep(1000);
 		get_edit_textsize().sendKeys("5");
 		Thread.sleep(1000);

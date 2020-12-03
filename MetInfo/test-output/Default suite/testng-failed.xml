@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hxy.testCase.ProductShow_Test">
+      <class name="com.hxy.testCase.ColumnManage_Test">
         <methods>
-          <include name="ProductShow_set_background_color"/>
-          <include name="ProductShow_set_text_distance"/>
+          <include name="ColumnManage_updateTitle"/>
           <include name="doAfterMethod"/>
-          <include name="ProductShow_set_text_color"/>
           <include name="startBrowser"/>
         </methods>
-      </class> <!-- com.hxy.testCase.ProductShow_Test -->
+      </class> <!-- com.hxy.testCase.ColumnManage_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

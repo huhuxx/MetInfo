@@ -15,7 +15,7 @@ public class SearchBox extends BaseTest {
 	}
 	public WebElement get_title() {
 		//产品展示导航栏
-		return driver.findElement(By.xpath("//span[text()='产品展示']"));
+		return driver.findElement(By.xpath("//span[@met-id='4']"));	
 	}
 	public WebElement get_set() {
 		//搜索框设置
