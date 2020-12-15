@@ -1,13 +1,18 @@
 package com.hxy.testCase;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.hxy.Listener.JavaMailTestListener;
 import com.hxy.pageObjects.ColumnManage;
 import com.hxy.util.BaseTest;
-
+/*
+ *  * 胡学杨
+ */
+@Listeners(JavaMailTestListener.class)
 public class ColumnManage_Test extends BaseTest {
-	//6��
+//	//6个
 	public ColumnManage u(WebDriver webDriver) {
 		ColumnManage a = new ColumnManage(webDriver);
 		return a;
@@ -17,8 +22,16 @@ public class ColumnManage_Test extends BaseTest {
 		u(driver).updateTitle();
 	}
 	@Test
+	public void ColumnManage_setDisplay_no() throws InterruptedException {	
+		u(driver).setDisplay_no();
+	}
+	@Test
 	public void ColumnManage_setDisplay_all() throws InterruptedException {	
 		u(driver).setDisplay_all();
+	}
+	@Test
+	public void ColumnManage_setDisplay_tail() throws InterruptedException {	
+		u(driver).setDisplay_tail();
 	}
 	@Test
 	public void ColumnManage_setDisplay_head() throws InterruptedException {	
