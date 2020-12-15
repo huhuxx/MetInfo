@@ -10,21 +10,20 @@ import com.hxy.util.BaseTest;
 /*
  *  * ?????
  */
-@Listeners(JavaMailTestListener.class)
 public class ColumnManage_Test extends BaseTest {
 //	//6ge1as
 	public ColumnManage u(WebDriver webDriver) {
 		ColumnManage a = new ColumnManage(webDriver);
 		return a;
 	}
-//	@Test
-//	public void ColumnManage_updateTitle() throws InterruptedException {	
-//		u(driver).updateTitle();
-//	}
-//	@Test
-//	public void ColumnManage_setDisplay_no() throws InterruptedException {	
-//		u(driver).setDisplay_no();
-//	}
+	@Test
+	public void ColumnManage_updateTitle() throws InterruptedException {	
+		u(driver).updateTitle();
+	}
+	@Test
+	public void ColumnManage_setDisplay_no() throws InterruptedException {	
+		u(driver).setDisplay_no();
+	}
 	@Test
 	public void ColumnManage_setDisplay_all() throws InterruptedException {	
 		u(driver).setDisplay_all();
