@@ -17,7 +17,7 @@ public class ColumnManage_Test extends BaseTest {
 		ColumnManage a = new ColumnManage(webDriver);
 		return a;
 	}
-	@Test
+//	@Test
 //	public void ColumnManage_updateTitle() throws InterruptedException {	
 //		u(driver).updateTitle();
 //	}
