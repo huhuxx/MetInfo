@@ -8,7 +8,7 @@ import java.nio.charset.Charset;
 
 public class HtmltoString {
 	public static String htmltoS() {
-		File fin = new File("C:\\Windows\\System32\\config\\systemprofile\\AppData\\Local\\Jenkins\\.jenkins\\workspace\\MetInfo Test2\MetInfo\\freemarkerHtml\\freemarker.html");
+		File fin = new File("C:\\Windows\\System32\\config\\systemprofile\\AppData\\Local\\Jenkins\\.jenkins\\workspace\\MetInfo Test2\\MetInfo\\freemarkerHtml\\freemarker.html");
 		String fileString = "";
 		try (RandomAccessFile accessFile = new RandomAccessFile(fin, "r");
 			FileChannel fcin = accessFile.getChannel();
