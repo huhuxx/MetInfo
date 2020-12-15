@@ -14,7 +14,7 @@ import freemarker.template.Template;
 import freemarker.template.TemplateException;
 
 public class testFreemarker {
-	private String dir="B:\\Study\\mianxiang\\mian2\\MetInfo";
+	private String dir="C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\MetInfo Test2\MetInfo";
 	private Map<String, List<Map<String, Object>>> root = new HashMap<String, List<Map<String, Object>>>();
 	private List<Map<String,Object>> maps = new ArrayList<Map<String,Object>>();
 	private List<Map<String,Object>> maps1 = new ArrayList<Map<String,Object>>();
@@ -70,7 +70,7 @@ public class testFreemarker {
 		
 		Writer out = new FileWriter(dir+"\\freemarkerHtml\\freemarker.html");
 		template.process(root, out);
-		System.out.println("html鍒涘缓鎴愬姛--------------------------------------------");
+		System.out.println("html创建成功--------------------------------------------");
 		out.flush();
 		out.close();
 	}
