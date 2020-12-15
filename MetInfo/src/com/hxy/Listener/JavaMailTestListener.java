@@ -19,7 +19,7 @@ public class JavaMailTestListener implements ITestListener{
 		// TODO Auto-generated method stub
 //		ITestListener.super.onTestSuccess(result);
         String testName = result.getName();
-        System.out.println(testName+"-----------------------------------------æµ‹è¯•ç”¨ä¾‹é€šè¿‡");
+        System.out.println(testName+"-----------------------------------------²âÊÔ³É¹¦");
         testFreemarker.createSuccessData(testName,"True");
         testFreemarker.createData(testName,"True");
 	}
@@ -28,7 +28,7 @@ public class JavaMailTestListener implements ITestListener{
 		// TODO Auto-generated method stub
 //        ITestListener.super.onTestFailure(tr);
         String testName = tr.getName();
-        System.out.println(testName+"-----------------------------------------æµ‹è¯•ç”¨ä¾‹å¤±è´¥");
+        System.out.println(testName+"-----------------------------------------²âÊÔÊ§°Ü");
         testFreemarker.createFailData(testName, "False");
         testFreemarker.createData(testName,"False");
 	}
@@ -60,7 +60,7 @@ public class JavaMailTestListener implements ITestListener{
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
 		String testName = result.getName();
-		System.out.println(testName+"-----------------------------------------æµ‹è¯•ç”¨ä¾‹å¤±è´¥");
+		System.out.println(testName+"-----------------------------------------²âÊÔÌø¹ý");
 	}
 	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
