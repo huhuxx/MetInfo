@@ -12,7 +12,7 @@ import com.hxy.util.BaseTest;
  */
 @Listeners(JavaMailTestListener.class)
 public class ColumnManage_Test extends BaseTest {
-//	//6ge1
+//	//6ge1as
 	public ColumnManage u(WebDriver webDriver) {
 		ColumnManage a = new ColumnManage(webDriver);
 		return a;
